@@ -1,0 +1,32 @@
+.card {
+    display : flex;
+    border : 1px solid gray;
+    gap : 2rem;
+    padding : 2rem;
+    align-items: center;
+    margin : 1rem 2rem;
+    border-radius: 4px;
+    
+}
+
+.card > img {
+    width : 150px;
+}
+
+.body {
+    flex: 1;
+}
+
+.addToBasket {
+    padding: 8px 2rem;
+    background-color: transparent;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.added {
+    background-color: gray;
+    pointer-events: none;
+    }

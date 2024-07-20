@@ -1,0 +1,13 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.root {
+    width: 80%;
+}
